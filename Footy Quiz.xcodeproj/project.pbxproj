@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B9A22F5245AFD4D007E98A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9A22F4245AFD4D007E98A9 /* AppDelegate.swift */; };
+		9B9A22F7245AFD4D007E98A9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9A22F6245AFD4D007E98A9 /* SceneDelegate.swift */; };
+		9B9A22FA245AFD4D007E98A9 /* Footy_Quiz.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9B9A22F8245AFD4D007E98A9 /* Footy_Quiz.xcdatamodeld */; };
+		9B9A22FC245AFD4D007E98A9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9A22FB245AFD4D007E98A9 /* ContentView.swift */; };
+		9B9A22FE245AFD50007E98A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B9A22FD245AFD50007E98A9 /* Assets.xcassets */; };
+		9B9A2301245AFD50007E98A9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B9A2300245AFD50007E98A9 /* Preview Assets.xcassets */; };
+		9B9A2304245AFD50007E98A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B9A2302245AFD50007E98A9 /* LaunchScreen.storyboard */; };
+		9B9A230F245AFD51007E98A9 /* Footy_QuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9A230E245AFD51007E98A9 /* Footy_QuizTests.swift */; };
+		9B9A231A245AFD51007E98A9 /* Footy_QuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9A2319245AFD51007E98A9 /* Footy_QuizUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B9A230B245AFD51007E98A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B9A22E9245AFD4D007E98A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B9A22F0245AFD4D007E98A9;
+			remoteInfo = "Footy Quiz";
+		};
+		9B9A2316245AFD51007E98A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B9A22E9245AFD4D007E98A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B9A22F0245AFD4D007E98A9;
+			remoteInfo = "Footy Quiz";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9B9A22F1245AFD4D007E98A9 /* Footy Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Footy Quiz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B9A22F4245AFD4D007E98A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9B9A22F6245AFD4D007E98A9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9B9A22F9245AFD4D007E98A9 /* Footy_Quiz.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Footy_Quiz.xcdatamodel; sourceTree = "<group>"; };
+		9B9A22FB245AFD4D007E98A9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9B9A22FD245AFD50007E98A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B9A2300245AFD50007E98A9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9B9A2303245AFD50007E98A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9B9A2305245AFD50007E98A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B9A230A245AFD51007E98A9 /* Footy QuizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Footy QuizTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B9A230E245AFD51007E98A9 /* Footy_QuizTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Footy_QuizTests.swift; sourceTree = "<group>"; };
+		9B9A2310245AFD51007E98A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B9A2315245AFD51007E98A9 /* Footy QuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Footy QuizUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B9A2319245AFD51007E98A9 /* Footy_QuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Footy_QuizUITests.swift; sourceTree = "<group>"; };
+		9B9A231B245AFD51007E98A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B9A22EE245AFD4D007E98A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B9A2307245AFD51007E98A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B9A2312245AFD51007E98A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B9A22E8245AFD4D007E98A9 = {
+			isa = PBXGroup;
+			children = (
+				9B9A22F3245AFD4D007E98A9 /* Footy Quiz */,
+				9B9A230D245AFD51007E98A9 /* Footy QuizTests */,
+				9B9A2318245AFD51007E98A9 /* Footy QuizUITests */,
+				9B9A22F2245AFD4D007E98A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9B9A22F2245AFD4D007E98A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B9A22F1245AFD4D007E98A9 /* Footy Quiz.app */,
+				9B9A230A245AFD51007E98A9 /* Footy QuizTests.xctest */,
+				9B9A2315245AFD51007E98A9 /* Footy QuizUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B9A22F3245AFD4D007E98A9 /* Footy Quiz */ = {
+			isa = PBXGroup;
+			children = (
+				9B9A22F4245AFD4D007E98A9 /* AppDelegate.swift */,
+				9B9A22F6245AFD4D007E98A9 /* SceneDelegate.swift */,
+				9B9A22FB245AFD4D007E98A9 /* ContentView.swift */,
+				9B9A22FD245AFD50007E98A9 /* Assets.xcassets */,
+				9B9A2302245AFD50007E98A9 /* LaunchScreen.storyboard */,
+				9B9A2305245AFD50007E98A9 /* Info.plist */,
+				9B9A22F8245AFD4D007E98A9 /* Footy_Quiz.xcdatamodeld */,
+				9B9A22FF245AFD50007E98A9 /* Preview Content */,
+			);
+			path = "Footy Quiz";
+			sourceTree = "<group>";
+		};
+		9B9A22FF245AFD50007E98A9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9B9A2300245AFD50007E98A9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9B9A230D245AFD51007E98A9 /* Footy QuizTests */ = {
+			isa = PBXGroup;
+			children = (
+				9B9A230E245AFD51007E98A9 /* Footy_QuizTests.swift */,
+				9B9A2310245AFD51007E98A9 /* Info.plist */,
+			);
+			path = "Footy QuizTests";
+			sourceTree = "<group>";
+		};
+		9B9A2318245AFD51007E98A9 /* Footy QuizUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9B9A2319245AFD51007E98A9 /* Footy_QuizUITests.swift */,
+				9B9A231B245AFD51007E98A9 /* Info.plist */,
+			);
+			path = "Footy QuizUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B9A22F0245AFD4D007E98A9 /* Footy Quiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B9A231E245AFD51007E98A9 /* Build configuration list for PBXNativeTarget "Footy Quiz" */;
+			buildPhases = (
+				9B9A22ED245AFD4D007E98A9 /* Sources */,
+				9B9A22EE245AFD4D007E98A9 /* Frameworks */,
+				9B9A22EF245AFD4D007E98A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Footy Quiz";
+			productName = "Footy Quiz";
+			productReference = 9B9A22F1245AFD4D007E98A9 /* Footy Quiz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9B9A2309245AFD51007E98A9 /* Footy QuizTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B9A2321245AFD51007E98A9 /* Build configuration list for PBXNativeTarget "Footy QuizTests" */;
+			buildPhases = (
+				9B9A2306245AFD51007E98A9 /* Sources */,
+				9B9A2307245AFD51007E98A9 /* Frameworks */,
+				9B9A2308245AFD51007E98A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B9A230C245AFD51007E98A9 /* PBXTargetDependency */,
+			);
+			name = "Footy QuizTests";
+			productName = "Footy QuizTests";
+			productReference = 9B9A230A245AFD51007E98A9 /* Footy QuizTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9B9A2314245AFD51007E98A9 /* Footy QuizUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B9A2324245AFD51007E98A9 /* Build configuration list for PBXNativeTarget "Footy QuizUITests" */;
+			buildPhases = (
+				9B9A2311245AFD51007E98A9 /* Sources */,
+				9B9A2312245AFD51007E98A9 /* Frameworks */,
+				9B9A2313245AFD51007E98A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B9A2317245AFD51007E98A9 /* PBXTargetDependency */,
+			);
+			name = "Footy QuizUITests";
+			productName = "Footy QuizUITests";
+			productReference = 9B9A2315245AFD51007E98A9 /* Footy QuizUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B9A22E9245AFD4D007E98A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Sory Diarra";
+				TargetAttributes = {
+					9B9A22F0245AFD4D007E98A9 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					9B9A2309245AFD51007E98A9 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 9B9A22F0245AFD4D007E98A9;
+					};
+					9B9A2314245AFD51007E98A9 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 9B9A22F0245AFD4D007E98A9;
+					};
+				};
+			};
+			buildConfigurationList = 9B9A22EC245AFD4D007E98A9 /* Build configuration list for PBXProject "Footy Quiz" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B9A22E8245AFD4D007E98A9;
+			productRefGroup = 9B9A22F2245AFD4D007E98A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B9A22F0245AFD4D007E98A9 /* Footy Quiz */,
+				9B9A2309245AFD51007E98A9 /* Footy QuizTests */,
+				9B9A2314245AFD51007E98A9 /* Footy QuizUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B9A22EF245AFD4D007E98A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B9A2304245AFD50007E98A9 /* LaunchScreen.storyboard in Resources */,
+				9B9A2301245AFD50007E98A9 /* Preview Assets.xcassets in Resources */,
+				9B9A22FE245AFD50007E98A9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B9A2308245AFD51007E98A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B9A2313245AFD51007E98A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B9A22ED245AFD4D007E98A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B9A22F5245AFD4D007E98A9 /* AppDelegate.swift in Sources */,
+				9B9A22F7245AFD4D007E98A9 /* SceneDelegate.swift in Sources */,
+				9B9A22FC245AFD4D007E98A9 /* ContentView.swift in Sources */,
+				9B9A22FA245AFD4D007E98A9 /* Footy_Quiz.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B9A2306245AFD51007E98A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B9A230F245AFD51007E98A9 /* Footy_QuizTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B9A2311245AFD51007E98A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B9A231A245AFD51007E98A9 /* Footy_QuizUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9B9A230C245AFD51007E98A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B9A22F0245AFD4D007E98A9 /* Footy Quiz */;
+			targetProxy = 9B9A230B245AFD51007E98A9 /* PBXContainerItemProxy */;
+		};
+		9B9A2317245AFD51007E98A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B9A22F0245AFD4D007E98A9 /* Footy Quiz */;
+			targetProxy = 9B9A2316245AFD51007E98A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9B9A2302245AFD50007E98A9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B9A2303245AFD50007E98A9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B9A231C245AFD51007E98A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9B9A231D245AFD51007E98A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B9A231F245AFD51007E98A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Footy Quiz/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Footy Quiz/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sory-diarra.Footy-Quiz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B9A2320245AFD51007E98A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Footy Quiz/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Footy Quiz/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sory-diarra.Footy-Quiz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9B9A2322245AFD51007E98A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Footy QuizTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sory-diarra.Footy-QuizTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Footy Quiz.app/Footy Quiz";
+			};
+			name = Debug;
+		};
+		9B9A2323245AFD51007E98A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Footy QuizTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sory-diarra.Footy-QuizTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Footy Quiz.app/Footy Quiz";
+			};
+			name = Release;
+		};
+		9B9A2325245AFD51007E98A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Footy QuizUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sory-diarra.Footy-QuizUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Footy Quiz";
+			};
+			name = Debug;
+		};
+		9B9A2326245AFD51007E98A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Footy QuizUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sory-diarra.Footy-QuizUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Footy Quiz";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B9A22EC245AFD4D007E98A9 /* Build configuration list for PBXProject "Footy Quiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B9A231C245AFD51007E98A9 /* Debug */,
+				9B9A231D245AFD51007E98A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B9A231E245AFD51007E98A9 /* Build configuration list for PBXNativeTarget "Footy Quiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B9A231F245AFD51007E98A9 /* Debug */,
+				9B9A2320245AFD51007E98A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B9A2321245AFD51007E98A9 /* Build configuration list for PBXNativeTarget "Footy QuizTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B9A2322245AFD51007E98A9 /* Debug */,
+				9B9A2323245AFD51007E98A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B9A2324245AFD51007E98A9 /* Build configuration list for PBXNativeTarget "Footy QuizUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B9A2325245AFD51007E98A9 /* Debug */,
+				9B9A2326245AFD51007E98A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9B9A22F8245AFD4D007E98A9 /* Footy_Quiz.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9B9A22F9245AFD4D007E98A9 /* Footy_Quiz.xcdatamodel */,
+			);
+			currentVersion = 9B9A22F9245AFD4D007E98A9 /* Footy_Quiz.xcdatamodel */;
+			path = Footy_Quiz.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9B9A22E9245AFD4D007E98A9 /* Project object */;
+}
