@@ -1,0 +1,21 @@
+//
+//  Option.swift
+//  Footy Quiz
+//
+//  Created by Sory Diarra on 07/05/2020.
+//  Copyright © 2020 Sory Diarra. All rights reserved.
+//
+
+import Foundation
+
+
+struct Option {
+    var id = UUID()
+    var name: String
+    var correctOption: Bool
+    var optionTouched: Bool
+    
+    mutating func touched() {
+        optionTouched = true
+    }
+}

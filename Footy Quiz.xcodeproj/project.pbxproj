@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B2CECC8246934520065571A /* GameHistory+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2CECC6246934520065571A /* GameHistory+CoreDataClass.swift */; };
+		9B2CECC9246934520065571A /* GameHistory+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2CECC7246934520065571A /* GameHistory+CoreDataProperties.swift */; };
 		9B9A22F5245AFD4D007E98A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9A22F4245AFD4D007E98A9 /* AppDelegate.swift */; };
 		9B9A22F7245AFD4D007E98A9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9A22F6245AFD4D007E98A9 /* SceneDelegate.swift */; };
 		9B9A22FA245AFD4D007E98A9 /* Footy_Quiz.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9B9A22F8245AFD4D007E98A9 /* Footy_Quiz.xcdatamodeld */; };
@@ -16,6 +18,24 @@
 		9B9A2304245AFD50007E98A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B9A2302245AFD50007E98A9 /* LaunchScreen.storyboard */; };
 		9B9A230F245AFD51007E98A9 /* Footy_QuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9A230E245AFD51007E98A9 /* Footy_QuizTests.swift */; };
 		9B9A231A245AFD51007E98A9 /* Footy_QuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9A2319245AFD51007E98A9 /* Footy_QuizUITests.swift */; };
+		9B9A2347245B20AE007E98A9 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9B9A2334245B20AE007E98A9 /* OFL.txt */; };
+		9BF21E0D245B406E001ABE4A /* SoloView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF21E0C245B406E001ABE4A /* SoloView.swift */; };
+		9BF21E0F245C2392001ABE4A /* MainMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF21E0E245C2392001ABE4A /* MainMenuView.swift */; };
+		9BF21E11245C8D52001ABE4A /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF21E10245C8D52001ABE4A /* TestView.swift */; };
+		9BF21E13245FF5A3001ABE4A /* GameStateClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF21E12245FF5A3001ABE4A /* GameStateClass.swift */; };
+		9BF21E1524604EE2001ABE4A /* Questions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF21E1424604EE2001ABE4A /* Questions.swift */; };
+		9BF21E1F246051EA001ABE4A /* QuestionInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF21E1E246051EA001ABE4A /* QuestionInfoView.swift */; };
+		9BF21E21246051F9001ABE4A /* ScoreInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF21E20246051F9001ABE4A /* ScoreInfoView.swift */; };
+		9BF21E232460520A001ABE4A /* TimeInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF21E222460520A001ABE4A /* TimeInfoView.swift */; };
+		9BF21E2424605E4B001ABE4A /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9BF21E1C2460517F001ABE4A /* Montserrat-SemiBold.ttf */; };
+		9BF21E2524605E4D001ABE4A /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9BF21E1B2460517D001ABE4A /* Montserrat-Regular.ttf */; };
+		9BF21E2624605E50001ABE4A /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9BF21E1824605176001ABE4A /* Montserrat-Bold.ttf */; };
+		9BF21E282460609D001ABE4A /* InfoBoxesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF21E272460609D001ABE4A /* InfoBoxesView.swift */; };
+		9BF21E2D24606662001ABE4A /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF21E2C24606662001ABE4A /* TimerView.swift */; };
+		9BF21E2F246066BE001ABE4A /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF21E2E246066BE001ABE4A /* QuestionView.swift */; };
+		9BF21E312463F5FB001ABE4A /* Option.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF21E302463F5FB001ABE4A /* Option.swift */; };
+		9BF21E34246455DE001ABE4A /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF21E33246455DE001ABE4A /* ScoreView.swift */; };
+		9BF21E3624645A3E001ABE4A /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9BF21E3524645A3E001ABE4A /* Montserrat-ExtraBold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +56,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9B2CECC6246934520065571A /* GameHistory+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameHistory+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		9B2CECC7246934520065571A /* GameHistory+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameHistory+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 		9B9A22F1245AFD4D007E98A9 /* Footy Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Footy Quiz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B9A22F4245AFD4D007E98A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B9A22F6245AFD4D007E98A9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +73,25 @@
 		9B9A2315245AFD51007E98A9 /* Footy QuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Footy QuizUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B9A2319245AFD51007E98A9 /* Footy_QuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Footy_QuizUITests.swift; sourceTree = "<group>"; };
 		9B9A231B245AFD51007E98A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B9A2334245B20AE007E98A9 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = OFL.txt; path = ../../../Downloads/Montserrat/OFL.txt; sourceTree = "<group>"; };
+		9B9A2373245B2648007E98A9 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		9BF21E0C245B406E001ABE4A /* SoloView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoloView.swift; sourceTree = "<group>"; };
+		9BF21E0E245C2392001ABE4A /* MainMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuView.swift; sourceTree = "<group>"; };
+		9BF21E10245C8D52001ABE4A /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		9BF21E12245FF5A3001ABE4A /* GameStateClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameStateClass.swift; sourceTree = "<group>"; };
+		9BF21E1424604EE2001ABE4A /* Questions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Questions.swift; sourceTree = "<group>"; };
+		9BF21E1824605176001ABE4A /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		9BF21E1B2460517D001ABE4A /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		9BF21E1C2460517F001ABE4A /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		9BF21E1E246051EA001ABE4A /* QuestionInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionInfoView.swift; sourceTree = "<group>"; };
+		9BF21E20246051F9001ABE4A /* ScoreInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreInfoView.swift; sourceTree = "<group>"; };
+		9BF21E222460520A001ABE4A /* TimeInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeInfoView.swift; sourceTree = "<group>"; };
+		9BF21E272460609D001ABE4A /* InfoBoxesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoBoxesView.swift; sourceTree = "<group>"; };
+		9BF21E2C24606662001ABE4A /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		9BF21E2E246066BE001ABE4A /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		9BF21E302463F5FB001ABE4A /* Option.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Option.swift; sourceTree = "<group>"; };
+		9BF21E33246455DE001ABE4A /* ScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
+		9BF21E3524645A3E001ABE4A /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-ExtraBold.ttf"; path = "../../../../Downloads/Montserrat/Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +142,26 @@
 		9B9A22F3245AFD4D007E98A9 /* Footy Quiz */ = {
 			isa = PBXGroup;
 			children = (
+				9B2CECC6246934520065571A /* GameHistory+CoreDataClass.swift */,
+				9B2CECC7246934520065571A /* GameHistory+CoreDataProperties.swift */,
+				9BF21E1724605163001ABE4A /* font */,
+				9BF21E162460514C001ABE4A /* Views */,
 				9B9A22F4245AFD4D007E98A9 /* AppDelegate.swift */,
 				9B9A22F6245AFD4D007E98A9 /* SceneDelegate.swift */,
 				9B9A22FB245AFD4D007E98A9 /* ContentView.swift */,
+				9BF21E12245FF5A3001ABE4A /* GameStateClass.swift */,
+				9B9A2373245B2648007E98A9 /* MyPlayground.playground */,
 				9B9A22FD245AFD50007E98A9 /* Assets.xcassets */,
+				9B9A2334245B20AE007E98A9 /* OFL.txt */,
 				9B9A2302245AFD50007E98A9 /* LaunchScreen.storyboard */,
 				9B9A2305245AFD50007E98A9 /* Info.plist */,
 				9B9A22F8245AFD4D007E98A9 /* Footy_Quiz.xcdatamodeld */,
 				9B9A22FF245AFD50007E98A9 /* Preview Content */,
+				9BF21E0C245B406E001ABE4A /* SoloView.swift */,
+				9BF21E0E245C2392001ABE4A /* MainMenuView.swift */,
+				9BF21E10245C8D52001ABE4A /* TestView.swift */,
+				9BF21E1424604EE2001ABE4A /* Questions.swift */,
+				9BF21E302463F5FB001ABE4A /* Option.swift */,
 			);
 			path = "Footy Quiz";
 			sourceTree = "<group>";
@@ -137,6 +190,79 @@
 				9B9A231B245AFD51007E98A9 /* Info.plist */,
 			);
 			path = "Footy QuizUITests";
+			sourceTree = "<group>";
+		};
+		9BF21E162460514C001ABE4A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9BF21E3724655C2F001ABE4A /* Main menu */,
+				9BF21E32246455C8001ABE4A /* Final Score */,
+				9BF21E2B24606652001ABE4A /* Timer */,
+				9BF21E2A2460661E001ABE4A /* Options */,
+				9BF21E2924606617001ABE4A /* Questions */,
+				9BF21E1D246051BD001ABE4A /* InfoBoxes */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9BF21E1724605163001ABE4A /* font */ = {
+			isa = PBXGroup;
+			children = (
+				9BF21E3524645A3E001ABE4A /* Montserrat-ExtraBold.ttf */,
+				9BF21E1C2460517F001ABE4A /* Montserrat-SemiBold.ttf */,
+				9BF21E1B2460517D001ABE4A /* Montserrat-Regular.ttf */,
+				9BF21E1824605176001ABE4A /* Montserrat-Bold.ttf */,
+			);
+			path = font;
+			sourceTree = "<group>";
+		};
+		9BF21E1D246051BD001ABE4A /* InfoBoxes */ = {
+			isa = PBXGroup;
+			children = (
+				9BF21E1E246051EA001ABE4A /* QuestionInfoView.swift */,
+				9BF21E20246051F9001ABE4A /* ScoreInfoView.swift */,
+				9BF21E222460520A001ABE4A /* TimeInfoView.swift */,
+				9BF21E272460609D001ABE4A /* InfoBoxesView.swift */,
+			);
+			path = InfoBoxes;
+			sourceTree = "<group>";
+		};
+		9BF21E2924606617001ABE4A /* Questions */ = {
+			isa = PBXGroup;
+			children = (
+				9BF21E2E246066BE001ABE4A /* QuestionView.swift */,
+			);
+			path = Questions;
+			sourceTree = "<group>";
+		};
+		9BF21E2A2460661E001ABE4A /* Options */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Options;
+			sourceTree = "<group>";
+		};
+		9BF21E2B24606652001ABE4A /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				9BF21E2C24606662001ABE4A /* TimerView.swift */,
+			);
+			path = Timer;
+			sourceTree = "<group>";
+		};
+		9BF21E32246455C8001ABE4A /* Final Score */ = {
+			isa = PBXGroup;
+			children = (
+				9BF21E33246455DE001ABE4A /* ScoreView.swift */,
+			);
+			path = "Final Score";
+			sourceTree = "<group>";
+		};
+		9BF21E3724655C2F001ABE4A /* Main menu */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Main menu";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,9 +369,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BF21E2524605E4D001ABE4A /* Montserrat-Regular.ttf in Resources */,
+				9B9A2347245B20AE007E98A9 /* OFL.txt in Resources */,
 				9B9A2304245AFD50007E98A9 /* LaunchScreen.storyboard in Resources */,
 				9B9A2301245AFD50007E98A9 /* Preview Assets.xcassets in Resources */,
 				9B9A22FE245AFD50007E98A9 /* Assets.xcassets in Resources */,
+				9BF21E3624645A3E001ABE4A /* Montserrat-ExtraBold.ttf in Resources */,
+				9BF21E2424605E4B001ABE4A /* Montserrat-SemiBold.ttf in Resources */,
+				9BF21E2624605E50001ABE4A /* Montserrat-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,10 +401,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BF21E312463F5FB001ABE4A /* Option.swift in Sources */,
+				9BF21E2D24606662001ABE4A /* TimerView.swift in Sources */,
+				9BF21E1524604EE2001ABE4A /* Questions.swift in Sources */,
+				9BF21E34246455DE001ABE4A /* ScoreView.swift in Sources */,
+				9BF21E13245FF5A3001ABE4A /* GameStateClass.swift in Sources */,
+				9BF21E1F246051EA001ABE4A /* QuestionInfoView.swift in Sources */,
+				9BF21E11245C8D52001ABE4A /* TestView.swift in Sources */,
+				9BF21E21246051F9001ABE4A /* ScoreInfoView.swift in Sources */,
+				9BF21E0F245C2392001ABE4A /* MainMenuView.swift in Sources */,
+				9BF21E0D245B406E001ABE4A /* SoloView.swift in Sources */,
 				9B9A22F5245AFD4D007E98A9 /* AppDelegate.swift in Sources */,
 				9B9A22F7245AFD4D007E98A9 /* SceneDelegate.swift in Sources */,
+				9BF21E2F246066BE001ABE4A /* QuestionView.swift in Sources */,
 				9B9A22FC245AFD4D007E98A9 /* ContentView.swift in Sources */,
 				9B9A22FA245AFD4D007E98A9 /* Footy_Quiz.xcdatamodeld in Sources */,
+				9BF21E282460609D001ABE4A /* InfoBoxesView.swift in Sources */,
+				9B2CECC9246934520065571A /* GameHistory+CoreDataProperties.swift in Sources */,
+				9B2CECC8246934520065571A /* GameHistory+CoreDataClass.swift in Sources */,
+				9BF21E232460520A001ABE4A /* TimeInfoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,8 +586,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Footy Quiz/Preview Content\"";
+				DEVELOPMENT_TEAM = PF9N9Y2MT8;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Footy Quiz/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -459,8 +607,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Footy Quiz/Preview Content\"";
+				DEVELOPMENT_TEAM = PF9N9Y2MT8;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Footy Quiz/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
