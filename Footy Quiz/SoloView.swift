@@ -8,15 +8,19 @@
 
 import SwiftUI
 import UIKit
+import AVFoundation
+
 
 struct SoloView: View {
     @EnvironmentObject var game: GameState
+    @State var sound = soundManage()
     
     var body: some View {
         
         return Group {
             if game.questions.count > 0 {
                 if game.start {
+                    //self.sound.correctSound()
                     InfoBoxesView()
                     QuestionView()
                     if game.optionsShow {
@@ -68,6 +72,60 @@ struct CapsuleOption: View {
 //    }
 //}
 
+struct soundManage {
+    var soundEffect: AVAudioPlayer?
+    
+    
+    mutating func correctSound() {
+        
+        let path = Bundle.main.path(forResource: "correct_button.wav", ofType:nil)!
+        let url = URL(fileURLWithPath: path)
+        
+        do {
+            soundEffect = try AVAudioPlayer(contentsOf: url)
+            soundEffect?.play()
+        } catch {
+            print("could not load file")
+        }
+    }
+    
+    mutating func incorrectSound() {
+        let path = Bundle.main.path(forResource: "incorrect_button.wav", ofType:nil)!
+        let url = URL(fileURLWithPath: path)
+
+        do {
+            soundEffect = try AVAudioPlayer(contentsOf: url)
+            soundEffect?.play()
+        } catch {
+            print("could not load file")
+        }
+    }
+    
+    mutating func questionSound() {
+        let path = Bundle.main.path(forResource: "question.mp3", ofType:nil)!
+        let url = URL(fileURLWithPath: path)
+
+        do {
+            soundEffect = try AVAudioPlayer(contentsOf: url)
+            soundEffect?.play()
+        } catch {
+            print("could not load file")
+        }
+    }
+    
+    mutating func startSound() {
+        let path = Bundle.main.path(forResource: "whistle.aiff", ofType:nil)!
+        let url = URL(fileURLWithPath: path)
+
+        do {
+            soundEffect = try AVAudioPlayer(contentsOf: url)
+            soundEffect?.play()
+        } catch {
+            print("could not load file")
+        }
+    }
+}
+
 struct OptionsView: View {
     @EnvironmentObject var game: GameState
     @State var answered = false
@@ -76,16 +134,23 @@ struct OptionsView: View {
     @State var chosen = "default"
     @State var answerColor = Color.white
     @Environment(\.managedObjectContext) var moc
+    @State var sound = soundManage()
     
-    func userChoice(correctChoice: Bool) {
+
+    
+     func userChoice(correctChoice: Bool) {
         game.stopTimer = true
         if correctChoice {
             game.score += 3 * game.timeRemaining
             game.correctAnswer = true
             self.answerColor = Color.green
+            self.sound.correctSound()
+            
+            
         } else {
             game.correctAnswer = false
             self.answerColor = Color.red
+            self.sound.incorrectSound()
         }
         answered = true
         //self.game.restartRound()
@@ -105,13 +170,17 @@ struct OptionsView: View {
         try? self.moc.save()
     }
     
+    
+    
     var body: some View {
         
         VStack {
+            
             ForEach(0 ..< game.questions[0].options.count) {option in
                 VStack {
                     // CC7E6D5D-0F47-492C-AA53-01248B536477
                     Button(action: {
+                        
                         print(self.game.id)
                         self.userChoice(correctChoice: self.game.questions[0].options[option].correctOption)
                         self.game.questions[0].options[option].optionTouched = true

@@ -10,16 +10,19 @@ import SwiftUI
 
 struct TimeInfoView: View {
     @EnvironmentObject var game: GameState
+    @State var sound = soundManage()
     let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
     var body: some View {
         ZStack {
             if self.game.optionsShow {
+                
                 Text("Time left\n \(self.game.timeRemaining)")
                     .font(.custom("Montserrat-SemiBold", size: 10))
                     .foregroundColor(Color.white)
                     .onReceive(timer) { _ in
                         if self.game.timeRemaining > 0  && !self.game.stopTimer {
                             self.game.timeRemaining -= 1
+                            
                         }
                         if self.game.timeRemaining == 0 {
                             self.game.restartRound() 

@@ -11,6 +11,7 @@ import SwiftUI
 struct ScoreView: View {
     @EnvironmentObject var game: GameState
     var body: some View {
+        game.saveGame()
         return Group {
             if game.score > 104 {
                 CapsuleScore(text: "WON", score: game.score)
@@ -53,6 +54,9 @@ struct CapsuleScore: View {
                             .cornerRadius(25)
                         Spacer()
                         VStack {
+                            Button(action: {
+                                //self.game = nil
+                            }) {
                             Text("Play again").font(.custom("Montserrat-SemiBold", size: 30))
                                 .foregroundColor(Color.white)
                                 .zIndex(10)
@@ -60,6 +64,7 @@ struct CapsuleScore: View {
                                 .overlay(
                                     RoundedRectangle(cornerRadius: 5)
                                         .stroke(Color.white, lineWidth: 5))
+                            }
                         }
                         Spacer()
                         VStack {
@@ -104,6 +109,9 @@ struct CapsuleScore: View {
                         Spacer()
                         
                         VStack {
+                            Button(action: {
+                                self.showingDetail.toggle()
+                            }) {
                             Text("Play again").font(.custom("Montserrat-SemiBold", size: 30))
                                 .foregroundColor(Color.white)
                                 .zIndex(10)
@@ -111,6 +119,7 @@ struct CapsuleScore: View {
                                 .overlay(
                                     RoundedRectangle(cornerRadius: 5)
                                         .stroke(Color.white, lineWidth: 5))
+                            }
                         }
                         VStack {
                             Button(action: {

@@ -18,6 +18,7 @@ class GameState: ObservableObject {
     @Published var start = false
     @Published var optionsShow = false
     @Published var solo = false
+    @Environment(\.managedObjectContext) var moc
     
     @Published var questions = [
         Question(question: "Which club won the Champions League in 2019?",
@@ -103,6 +104,20 @@ class GameState: ObservableObject {
         optionsShow = false
         round += 1
     }
+    
+    func saveGame() {
+        let game = Game(context: self.moc)
+        game.id = self.id
+        game.score = Int16(self.score)
+        
+        try? self.moc.save()
+    }
+    
+//    func newGame() {
+//        GameState.self.ObjectWillChangePublisher.
+//    }
+    
+    
 
     
 }

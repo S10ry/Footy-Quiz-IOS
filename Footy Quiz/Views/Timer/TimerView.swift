@@ -13,6 +13,7 @@ struct TimerView: View {
     //@State private var timeRemaining = 3
     @State private var timeRemaining = 1
     
+    
     private let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
     var body: some View {
         VStack {
@@ -33,7 +34,10 @@ struct TimerView: View {
                         self.timeRemaining -= 1
                     }
                     if self.timeRemaining == 0 {
+                        
                         self.game.start = true
+                        
+
                     }
             
             }

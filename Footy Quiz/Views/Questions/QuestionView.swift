@@ -11,6 +11,8 @@ import SwiftUI
 struct QuestionView: View {
     @EnvironmentObject var game: GameState
     @State var timeRemaining = 3
+    @State var sound = soundManage()
+    
 
     
     let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
@@ -33,6 +35,8 @@ struct QuestionView: View {
                     }
             }
             Spacer()
+        }.onAppear {
+            self.sound.startSound()
         }
     }
 }

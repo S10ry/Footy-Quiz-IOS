@@ -154,9 +154,21 @@ struct FilteredGame: View {
 //        }
 //    }
 //}
-//
-//struct AnimateDemo_Previews: PreviewProvider {
-//    static var previews: some View {
-//        GameDetails()
-//    }
-//}
+
+struct gameHistory: View {
+    var body: some View {
+        Text("hello")
+    }
+}
+
+
+
+
+
+
+
+struct AnimateDemo_Previews: PreviewProvider {
+    static var previews: some View {
+        gameHistory()
+    }
+}
