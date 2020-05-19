@@ -9,11 +9,18 @@
 import Foundation
 
 
-struct Option {
+struct APIOption: Codable {
+    //var id = UUID()
+    var name: String
+    var correctOption: Bool
+    var optionTouched: Bool? = true
+}
+
+struct Option: Codable {
     var id = UUID()
     var name: String
     var correctOption: Bool
-    var optionTouched: Bool
+    var optionTouched:Bool
     
     mutating func touched() {
         optionTouched = true

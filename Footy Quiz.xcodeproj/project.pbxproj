@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		9B2CECC8246934520065571A /* GameHistory+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2CECC6246934520065571A /* GameHistory+CoreDataClass.swift */; };
 		9B2CECC9246934520065571A /* GameHistory+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2CECC7246934520065571A /* GameHistory+CoreDataProperties.swift */; };
+		9B67864D246EB1F000712218 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B67864C246EB1F000712218 /* Reachability.swift */; };
 		9B9A22F5245AFD4D007E98A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9A22F4245AFD4D007E98A9 /* AppDelegate.swift */; };
 		9B9A22F7245AFD4D007E98A9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9A22F6245AFD4D007E98A9 /* SceneDelegate.swift */; };
 		9B9A22FA245AFD4D007E98A9 /* Footy_Quiz.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9B9A22F8245AFD4D007E98A9 /* Footy_Quiz.xcdatamodeld */; };
@@ -64,6 +65,7 @@
 /* Begin PBXFileReference section */
 		9B2CECC6246934520065571A /* GameHistory+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameHistory+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
 		9B2CECC7246934520065571A /* GameHistory+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameHistory+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		9B67864C246EB1F000712218 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		9B9A22F1245AFD4D007E98A9 /* Footy Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Footy Quiz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B9A22F4245AFD4D007E98A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B9A22F6245AFD4D007E98A9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -177,6 +179,7 @@
 				9BF21E10245C8D52001ABE4A /* TestView.swift */,
 				9BF21E1424604EE2001ABE4A /* Questions.swift */,
 				9BF21E302463F5FB001ABE4A /* Option.swift */,
+				9B67864C246EB1F000712218 /* Reachability.swift */,
 			);
 			path = "Footy Quiz";
 			sourceTree = "<group>";
@@ -451,6 +454,7 @@
 				9BF21E282460609D001ABE4A /* InfoBoxesView.swift in Sources */,
 				9B2CECC9246934520065571A /* GameHistory+CoreDataProperties.swift in Sources */,
 				9B2CECC8246934520065571A /* GameHistory+CoreDataClass.swift in Sources */,
+				9B67864D246EB1F000712218 /* Reachability.swift in Sources */,
 				9BF21E232460520A001ABE4A /* TimeInfoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

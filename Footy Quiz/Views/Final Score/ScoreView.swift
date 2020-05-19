@@ -55,7 +55,7 @@ struct CapsuleScore: View {
                         Spacer()
                         VStack {
                             Button(action: {
-                                //self.game = nil
+                                self.game.restartGame()
                             }) {
                             Text("Play again").font(.custom("Montserrat-SemiBold", size: 30))
                                 .foregroundColor(Color.white)
@@ -110,7 +110,7 @@ struct CapsuleScore: View {
                         
                         VStack {
                             Button(action: {
-                                self.showingDetail.toggle()
+                                self.game.restartGame()
                             }) {
                             Text("Play again").font(.custom("Montserrat-SemiBold", size: 30))
                                 .foregroundColor(Color.white)
@@ -121,6 +121,7 @@ struct CapsuleScore: View {
                                         .stroke(Color.white, lineWidth: 5))
                             }
                         }
+                        Spacer()
                         VStack {
                             Button(action: {
                                 self.showingDetail.toggle()

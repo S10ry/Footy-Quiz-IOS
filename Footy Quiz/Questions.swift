@@ -8,20 +8,16 @@
 
 import Foundation
 
-//struct Questions {
-//     var
-//}
+struct APIQuestion: Codable {
+    //var id = UUID()
+    var question: String
+    var options: [APIOption]
+}
 
-struct Question {
+struct Question: Codable {
     var id = UUID()
     var question: String
     var options: [Option]
-//    var option_1: Option
-//    var option_2: Option
-//    var option_3: Option
-//    var option_4: Option
 }
-
-
 
 

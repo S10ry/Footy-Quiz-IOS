@@ -48,6 +48,10 @@ struct CapsuleAnswer: View {
     var body: some View {
         Text(text)
             .font(.custom("Montserrat-SemiBold", size: 20))
+            .minimumScaleFactor(0.1)
+            .lineLimit(0)
+            .padding(10)
+        
             .foregroundColor(Color(red:0.07, green: 0.1, blue: 0.16))
             .zIndex(10)
             .frame(width: 175, height: 40)
@@ -169,6 +173,6 @@ struct gameHistory: View {
 
 struct AnimateDemo_Previews: PreviewProvider {
     static var previews: some View {
-        gameHistory()
+        CapsuleAnswer(text: "Robin van Persieeeeeee", correct: true)
     }
 }

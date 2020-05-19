@@ -15,6 +15,7 @@ struct SoloView: View {
     @EnvironmentObject var game: GameState
     @State var sound = soundManage()
     
+    
     var body: some View {
         
         return Group {
@@ -45,6 +46,9 @@ struct CapsuleOption: View {
         Text(text)
             .font(.custom("Montserrat-SemiBold", size: 30))
             .foregroundColor(Color(red:0.07, green: 0.1, blue: 0.16))
+            .minimumScaleFactor(0.1)
+            .lineLimit(0)
+            .padding(10)
             .zIndex(10)
             .frame(width: 335.0, height: 80)
             .background(bgColor)

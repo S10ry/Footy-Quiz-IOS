@@ -10,6 +10,7 @@ import SwiftUI
 
 struct ScoreInfoView: View {
     @EnvironmentObject var game: GameState
+    
     var body: some View {
         Text("Score\n \(game.score)")
             .font(.custom("Montserrat-SemiBold", size: 10))
